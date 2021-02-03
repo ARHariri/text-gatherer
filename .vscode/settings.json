@@ -1,0 +1,17 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  
+  // disable default vscode formatters and use prettier instead
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "files.exclude": {
+    "packages-cache": true,
+    "**/node_modules": true
+  },
+}
